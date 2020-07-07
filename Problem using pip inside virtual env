@@ -1,0 +1,12 @@
+problem description : 
+
+Traceback (most recent call last):
+  File "/home/Petri/base/TD1906_NeuN_Huaqian/virtualenv_Topcoders/venvpy3/bin/pip3", line 7, in <module>
+    from pip._internal.cli.main import main
+ImportError: No module named 'pip._internal.cli.main'
+
+
+solution : 
+
+- from pip._internal.cli.main import main 
++ from pip._internal import main
