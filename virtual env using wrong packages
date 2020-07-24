@@ -1,0 +1,3 @@
+*** How to isolate virtualenv from local dist-packages?
+unset PYTHONPATH
+source venvpy3/bin/activate
