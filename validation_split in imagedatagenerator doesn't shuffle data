@@ -1,0 +1,5 @@
+When specifying the validation_split argument in Keras' ImageDataGenerator the split is performed before the data is shuffled such that only the last x samples are taken. 
+
+Solutin: shuffle data in advance
+
+cf: https://stackoverflow.com/questions/62662194/keras-imagedatagenerator-validation-split-not-selected-from-shuffled-dataset
