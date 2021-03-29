@@ -1,0 +1,2 @@
+1. bv_maker build after create new file
+2. if build failed, try bv_maker configure, then retry bv_maker build
